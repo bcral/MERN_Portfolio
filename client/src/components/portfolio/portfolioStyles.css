@@ -1,0 +1,60 @@
+.portfolioBody {
+    text-align: center;
+    margin: 0 10%;
+    line-height: 1.5em;
+}
+
+.portfolioItem:after {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 30%;
+    border-bottom: solid 2px rgba(100, 100, 100, 0.7);
+}
+
+.techItem {
+    background-color: rgb(235, 235, 235);
+    border: 1px solid rgb(100, 100, 100);
+    width: 100%;
+    border-radius: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    box-shadow: inset 0px 6px 6px -6px #888;
+}
+
+.techItem span {
+    padding: 0.5em;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(100, 100, 100);
+}
+
+.portfolioItem h4 {
+    color: rgb(100, 100, 100);
+}
+
+.svgIcon {
+    height: 1.5em;
+    width: 1.5em;
+    flex: 1; 
+}
+
+.itemMainImg {
+    margin: auto;
+    max-width: 100%;
+    margin-top: 1em;
+    border: 2px solid rgb(252, 146, 47);
+    border-radius: 0.2em;
+    box-shadow: 0px 6px 9px -6px #888;
+}
+
+.buttonCont {
+    display: flex;
+    margin: 1em;
+    justify-content: center;
+}
+
+.buttonCont button {
+    flex: 1;
+}

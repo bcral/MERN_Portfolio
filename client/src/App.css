@@ -11,12 +11,12 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 
 h1 {
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 600;
   color: rgb(255, 255, 255);
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   padding: 1.3em 0;
 }
@@ -55,4 +55,17 @@ h4 {
 
 hr {
   border-color: rgb(252, 146, 47);
+}
+
+@media (min-width: 992px) { 
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  hr {
+    border-color: rgb(252, 146, 47);
+    width: 50%;
+  }
 }

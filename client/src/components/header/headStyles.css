@@ -11,6 +11,10 @@
     height: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 .name {
     padding-top: 10px;
     padding-left: 10%;
@@ -26,9 +30,14 @@
     height: 100%;
 }
 .links img {
-    height: 1.5em;
-    width: 1.5em;
+    height: 1.8em;
+    width: 1.8em;
     flex: 1;
+    display: block;
+}
+
+.linkText {
+    display: none;
 }
 
 .profilePic {
@@ -68,6 +77,12 @@
 .infoBox {
     display: block;
     text-align: center;
+    margin: auto;
+}
+
+.title {
+    padding: 1em 0;
+    letter-spacing: 0.1em;
 }
 
 .location {
@@ -79,4 +94,117 @@
 .locIcon {
     height: 20px;
     margin-right: 0.5em;
+}
+
+.subTitles {
+    color: rgb(100, 100, 100);
+    padding: 1em;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.7em;
+    letter-spacing: 0.1em;
+    list-style-type: none;
+}
+
+@media (min-width: 992px) {
+.banner {
+    height: 220px;
+}
+.name {
+    padding-top: 30px;
+    padding-left: 10%;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    color: #fff;
+    background-color: #ffffff00;
+    padding-right: 5%;
+}
+.links img {
+    display: none;
+}
+.linkText {
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding-bottom: 0.2em;
+    border-bottom: solid 1px #fff;
+}
+
+.infoBox {
+    display: flex;
+    max-width: 900px;
+    text-align: left;
+}
+
+.center {
+    width: 100%;
+}
+
+.profilePic {
+    top: -90px;
+    max-width: 264px;
+    margin: 0px;
+    float: left;
+}
+.mainImg {
+    background-position: center;
+    border-radius: 120px;
+    background-size: auto 220px;
+    height: 220px;
+    width: 220px;
+    margin: 0;
+}
+.profileInfo {
+    display: flex;
+    align-content: start;
+    position: relative;
+    text-align: center;
+    top: 10px;
+    padding: 0 0 3em 0;
+    min-height: 15em;
+    max-width: 640px;
+    float: right;
+}
+.infoCluster {
+    position: relative;
+    display: inline-block;
+    margin: 1em;
+    padding: 1em;
+    border: solid 1px #888;
+    flex: 0;
+    box-shadow: 0px 6px 9px -6px #888;
+}
+.title {
+    padding: 0 0 0.5em 0;
+}
+.location {
+    font-size: 18px;
+    display: block;
+}
+.profileBio {
+    position: relative;
+    display: inline;
+    text-align: left;
+    flex: 1;
+    margin: 1em 2em;
+    font-size: 18px;
+    line-height: 2em;
+}
+.subTitles {
+    padding: 0 2em;
+    font-size: 16px;
+    line-height: 2em;
+    letter-spacing: 0.1em;
+    text-align: left;
+    list-style-type: square;
+}
 }

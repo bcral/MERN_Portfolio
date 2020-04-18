@@ -27,6 +27,7 @@
     padding: 0.5em;
     font-size: 15px;
     font-weight: 600;
+    margin: 0 1em;
     color: rgb(100, 100, 100);
 }
 
@@ -57,4 +58,24 @@
 
 .buttonCont button {
     flex: 1;
+}
+
+@media (min-width: 992px) {
+    .description {
+        max-width: 500px;
+        margin: auto;
+    }
+    .itemMainImg {
+        margin-top: 2em;
+    }
+    h4 {
+        padding: 2em 0;
+    }
+    .techItem {
+        max-width: 500px;
+        margin: auto;
+    }
+    .buttonCont {
+        margin: 2em;
+    }
 }

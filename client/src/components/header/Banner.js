@@ -28,13 +28,16 @@ const Banner = () => {
             <div className="bannerLayer">
                 <div className="links">
                     <a className="email"
-                        href={ Email }
+                        href={ `mailto:${Email}` }
                         target="_blank"
                         rel="noopener noreferrer"
                     ><img 
                         alt="email icon"
                         src={require('../../data/icons/gmail_icon.svg')}
                         ></img>
+                        <div className="linkText">
+                            { Email }
+                        </div>
                     </a>
                     <a className="github"
                         href={ GH }
@@ -44,6 +47,9 @@ const Banner = () => {
                         alt="github icon"
                         src={require("../../data/icons/github_icon.svg")}
                         ></img>
+                        <div className="linkText">
+                            Github
+                        </div>
                     </a>
                     <a className="linkedin"
                         href={ LI }
@@ -53,6 +59,9 @@ const Banner = () => {
                         alt="linkedin icon"
                         src={require("../../data/icons/linkedin_icon.svg")}
                         ></img>
+                        <div className="linkText">
+                            LinkedIn
+                        </div>
                     </a>
                 </div>
                 <div className="name">

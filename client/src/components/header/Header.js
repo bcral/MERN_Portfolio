@@ -10,8 +10,10 @@ const Header = () => {
         <div>
             <Banner></Banner>
             <div className="infoBox">
-                <ProfilePic></ProfilePic>
-                <ProfileInfo></ProfileInfo>
+                <div className="center">
+                    <ProfilePic></ProfilePic>
+                    <ProfileInfo></ProfileInfo>
+                </div>
             </div>
         </div>
     )

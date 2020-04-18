@@ -29,7 +29,7 @@ export class PortfolioItem extends Component {
         return (
             <div className="portfolioItem">
                 <h2>{ project.title }</h2>
-                <p>{ project.description }
+                <p className="description">{ project.description }
                 </p>
                 <img className="itemMainImg" 
                     alt="project example"

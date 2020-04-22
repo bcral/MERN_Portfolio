@@ -49,7 +49,7 @@ h4 {
 
 .button:hover {
   background-color: rgb(255, 209, 166);
-  color: rgb(0, 0, 0);
+  color: rgb(136, 136, 136);
   cursor: pointer;
 }
 

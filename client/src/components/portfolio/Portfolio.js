@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import PortfolioItem from './PortfolioItem'
 import './portfolioStyles.css'
+import Widget from './Widget'
 
 const Portfolio = () => {
 

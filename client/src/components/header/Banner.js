@@ -21,7 +21,7 @@ const Banner = () => {
         .catch(err => {
             console.log(err);
         })
-    })
+    }, [])
 
     return (
         <div className="banner" style={{ backgroundImage: `url("${BP}")` }}>

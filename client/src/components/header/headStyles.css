@@ -102,7 +102,7 @@ a {
     font-size: 16px;
     font-weight: 600;
     line-height: 1.7em;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.15em;
     list-style-type: none;
 }
 
@@ -135,8 +135,6 @@ a {
     line-height: 10px;
     letter-spacing: 0.1em;
     text-align: center;
-    padding-bottom: 0.2em;
-    border-bottom: solid 1px #fff;
 }
 
 .infoBox {
@@ -165,7 +163,7 @@ a {
 }
 .profileInfo {
     display: flex;
-    align-content: start;
+    align-content: flex-start;
     position: relative;
     text-align: center;
     top: 10px;

@@ -19,7 +19,7 @@ const ProfileInfo = () => {
         .catch(err => {
             console.log(err);
         })
-    })
+    }, [])
 
     return (
         <div className="profileInfo">

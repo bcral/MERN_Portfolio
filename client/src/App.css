@@ -57,6 +57,10 @@ hr {
   border-color: rgb(252, 146, 47);
 }
 
+.center {
+  margin: auto;
+}
+
 @media (min-width: 992px) { 
   h1 {
     font-size: 45px;

@@ -1,12 +1,29 @@
-import React, { Component } from 'react'
+import React, { useEffect } from 'react'
 
-export class Widget extends Component {
-    render() {
-        return (
-            <div>
-            </div>
-        )
-    }
+const Widget = (props) => {
+
+    useEffect(() => {
+        const script = document.createElement('script');
+
+        script.src = props.js;
+        script.async = true;
+      
+        document.body.appendChild(script);
+      
+        return () => {
+          document.body.removeChild(script);
+        }
+    }, [])
+
+    return (
+        <div className="itemMainImg">
+
+            <link href={ props.css } rel="stylesheet"/> 
+
+            <vue-widget></vue-widget>
+
+        </div>
+    );
 }
 
 export default Widget
